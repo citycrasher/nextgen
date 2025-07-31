@@ -1,0 +1,101 @@
+<svg width="240" height="40" viewBox="0 0 240 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background shape with animation -->
+  <rect x="2" y="2" width="236" height="36" rx="4" fill="url(#bg_gradient)" fill-opacity="0.1" stroke="url(#border_gradient)" stroke-width="1">
+    <animate attributeName="stroke-opacity" values="0.8;1;0.8" dur="4s" repeatCount="indefinite" />
+  </rect>
+  
+  <!-- NEXTGEN text with shimmer effect -->
+  <g>
+    <path d="M15 8L15 32L20 32L20 20L30 32L35 32L35 8L30 8L30 20L20 8L15 8Z" fill="url(#logo_gradient1)">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="5s" repeatCount="indefinite" />
+    </path>
+    <path d="M40 8L40 32L45 32L45 23L50 23L55 32L60 32L54 22C56.5 21 58 19 58 16C58 11 54 8 50 8L40 8ZM45 12L50 12C51.5 12 53 13.5 53 16C53 18.5 51.5 20 50 20L45 20L45 12Z" fill="url(#logo_gradient1)">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="5s" repeatCount="indefinite" begin="0.2s" />
+    </path>
+    <path d="M65 8L65 32L80 32L80 28L70 28L70 22L78 22L78 18L70 18L70 12L80 12L80 8L65 8Z" fill="url(#logo_gradient1)">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="5s" repeatCount="indefinite" begin="0.4s" />
+    </path>
+    <path d="M85 8L85 32L90 32L90 22L100 22L100 32L105 32L105 8L100 8L100 18L90 18L90 8L85 8Z" fill="url(#logo_gradient1)">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="5s" repeatCount="indefinite" begin="0.6s" />
+    </path>
+    <path d="M110 8L110 32L125 32L125 28L115 28L115 8L110 8Z" fill="url(#logo_gradient1)">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="5s" repeatCount="indefinite" begin="0.8s" />
+    </path>
+    <path d="M130 8L130 32L145 32L145 28L135 28L135 22L143 22L143 18L135 18L135 12L145 12L145 8L130 8Z" fill="url(#logo_gradient1)">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="5s" repeatCount="indefinite" begin="1s" />
+    </path>
+    <path d="M150 8L150 32L155 32L155 23L160 23L165 32L170 32L164 22C166.5 21 168 19 168 16C168 11 164 8 160 8L150 8ZM155 12L160 12C161.5 12 163 13.5 163 16C163 18.5 161.5 20 160 20L155 20L155 12Z" fill="url(#logo_gradient1)">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="5s" repeatCount="indefinite" begin="1.2s" />
+    </path>
+  </g>
+  
+  <!-- SOLUTIONS text with shimmer effect -->
+  <g>
+    <path d="M175 8C171 8 168 10 168 14C168 24 183 18 183 26C183 28 181 28 179 28C177 28 175 27 173 25L171 29C173 31 176 32 179 32C183 32 187 30 187 26C187 16 172 22 172 14C172 12 174 12 176 12C178 12 180 13 182 15L184 11C182 9 179 8 175 8Z" fill="url(#logo_gradient2)">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="5s" repeatCount="indefinite" begin="1.4s" />
+    </path>
+    <path d="M190 8C186 8 183 10 183 14C183 18 186 20 190 20L195 20C196 20 197 21 197 22C197 23 196 24 195 24L190 24C188 24 186 23 184 21L182 25C184 27 187 28 190 28C194 28 201 26 201 22C201 18 198 16 194 16L189 16C188 16 187 15 187 14C187 13 188 12 189 12L194 12C196 12 198 13 200 15L202 11C200 9 197 8 194 8L190 8Z" fill="url(#logo_gradient2)">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="5s" repeatCount="indefinite" begin="1.6s" />
+    </path>
+    <path d="M205 8L205 32L225 32L225 28L210 28L210 8L205 8Z" fill="url(#logo_gradient2)">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="5s" repeatCount="indefinite" begin="1.8s" />
+    </path>
+  </g>
+  
+  <!-- Decorative circuit lines with animation -->
+  <path d="M5 5L8 8" stroke="#4F46E5" stroke-width="0.5" stroke-linecap="round">
+    <animate attributeName="stroke-opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite" />
+  </path>
+  <path d="M235 5L232 8" stroke="#4F46E5" stroke-width="0.5" stroke-linecap="round">
+    <animate attributeName="stroke-opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite" begin="1s" />
+  </path>
+  <path d="M5 35L8 32" stroke="#4F46E5" stroke-width="0.5" stroke-linecap="round">
+    <animate attributeName="stroke-opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite" begin="2s" />
+  </path>
+  <path d="M235 35L232 32" stroke="#4F46E5" stroke-width="0.5" stroke-linecap="round">
+    <animate attributeName="stroke-opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite" begin="3s" />
+  </path>
+  
+  <!-- Small decorative dots with pulse animation -->
+  <circle cx="120" cy="4" r="1" fill="#60A5FA">
+    <animate attributeName="r" values="1;1.5;1" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="fill-opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="120" cy="36" r="1" fill="#EC4899">
+    <animate attributeName="r" values="1;1.5;1" dur="4s" repeatCount="indefinite" begin="2s" />
+    <animate attributeName="fill-opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite" begin="2s" />
+  </circle>
+  
+  <!-- Additional subtle background pattern -->
+  <path d="M0 0 L240 40" stroke="url(#border_gradient)" stroke-width="0.3" stroke-opacity="0.05" stroke-dasharray="1 8">
+    <animate attributeName="stroke-dashoffset" values="0;9" dur="20s" repeatCount="indefinite" />
+  </path>
+  <path d="M0 40 L240 0" stroke="url(#border_gradient)" stroke-width="0.3" stroke-opacity="0.05" stroke-dasharray="1 8">
+    <animate attributeName="stroke-dashoffset" values="0;9" dur="20s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Gradient definitions with animation -->
+  <defs>
+    <linearGradient id="bg_gradient" x1="0" y1="0" x2="240" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1E293B" />
+      <stop offset="1" stop-color="#0F172A" />
+      <animate attributeName="y1" values="0;10;0" dur="15s" repeatCount="indefinite" />
+    </linearGradient>
+    <linearGradient id="border_gradient" x1="0" y1="0" x2="240" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA" />
+      <stop offset="0.5" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#EC4899" />
+      <animate attributeName="x1" values="0;40;0" dur="15s" repeatCount="indefinite" />
+    </linearGradient>
+    <linearGradient id="logo_gradient1" x1="15" y1="8" x2="170" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA" />
+      <stop offset="1" stop-color="#8B5CF6" />
+      <animate attributeName="x1" values="15;35;15" dur="15s" repeatCount="indefinite" />
+    </linearGradient>
+    <linearGradient id="logo_gradient2" x1="168" y1="8" x2="225" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#EC4899" />
+      <animate attributeName="x2" values="225;205;225" dur="15s" repeatCount="indefinite" />
+    </linearGradient>
+  </defs>
+</svg>

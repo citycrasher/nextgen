@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NEXTGEN SOLUTIONS - AI technologies to scale innovation and drive competitive advantage. We specialize in AI Strategy, Custom AI Development, Automation, Computer Vision, NLP, and more.">
+    <title>NEXTGEN SOLUTIONS - Engineering Intelligence. Empowering Innovation.</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-black to-gray-900 text-white font-poppins">
+    <!-- Loading Animation -->
+    <div class="loading-animation" id="loading-animation">
+        <div class="loading-spinner"></div>
+    </div>
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-black/80 backdrop-blur-md">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <a href="#" class="flex items-center">
+                    <img src="./logo.svg" alt="NEXTGEN SOLUTIONS" class="h-8">
+                </a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="hover:text-blue-400 transition-colors duration-300">About</a>
+                    <a href="#services" class="hover:text-blue-400 transition-colors duration-300">Services</a>
+                    <a href="#industries" class="hover:text-blue-400 transition-colors duration-300">Industries</a>
+                    <a href="#why-us" class="hover:text-blue-400 transition-colors duration-300">Why Us</a>
+                    <a href="#contact" class="hover:text-blue-400 transition-colors duration-300">Contact</a>
+                </div>
+                <button class="md:hidden text-2xl" id="mobile-menu-button">☰</button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-gray-900 border-t border-gray-800">
+            <div class="container mx-auto px-4 py-4 flex flex-col space-y-4">
+                <a href="#about" class="hover:text-blue-400 transition-colors duration-300">About</a>
+                <a href="#services" class="hover:text-blue-400 transition-colors duration-300">Services</a>
+                <a href="#industries" class="hover:text-blue-400 transition-colors duration-300">Industries</a>
+                <a href="#why-us" class="hover:text-blue-400 transition-colors duration-300">Why Us</a>
+                <a href="#contact" class="hover:text-blue-400 transition-colors duration-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+        <div id="particles-container" class="absolute inset-0 z-0"></div>
+        <div class="container mx-auto px-4 z-10 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4 font-space-grotesk gradient-text">Elevate Your Business with Cutting-Edge AI</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto text-gray-300">From automation to deep intelligence, <span class="font-semibold text-white">NEXTGEN SOLUTIONS</span> crafts tailored AI technologies to scale innovation and drive competitive advantage.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#contact" class="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-md transition-all duration-300 font-medium">Let's Build The Future</a>
+                <a href="#services" class="px-8 py-3 bg-transparent border border-blue-600 hover:bg-blue-900/20 rounded-md transition-all duration-300 font-medium">Explore Solutions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-bold mb-12 text-center font-space-grotesk gradient-text">Built for Visionaries. Driven by Intelligence.</h2>
+            <div class="max-w-4xl mx-auto">
+                <p class="text-lg mb-6 text-gray-300">At <span class="font-semibold text-white">NEXTGEN SOLUTIONS</span>, we specialize in deploying advanced artificial intelligence to solve real-world business challenges. Our team of engineers, data scientists, and strategy consultants works closely with enterprises to integrate smart, scalable, and secure AI systems that deliver measurable results.</p>
+                <p class="text-lg text-gray-300">We don't just build AI. We build solutions that <span class="text-blue-400 font-medium">think</span>, <span class="text-purple-400 font-medium">adapt</span>, and <span class="text-indigo-400 font-medium">transform</span> your business landscape.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-black">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-bold mb-12 text-center font-space-grotesk gradient-text">AI Services Designed to Evolve Your Business</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-gray-900 p-6 rounded-lg hover:bg-gray-800 transition-all duration-300 border border-gray-800 hover:border-blue-600">
+                    <div class="text-blue-500 text-2xl mb-4">🔹</div>
+                    <h3 class="text-xl font-bold mb-3 font-space-grotesk">AI Strategy & Consulting</h3>
+                    <p class="text-gray-400">We help you identify the most impactful opportunities to apply AI within your organization. From readiness assessments to roadmap development, we guide your AI journey.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-gray-900 p-6 rounded-lg hover:bg-gray-800 transition-all duration-300 border border-gray-800 hover:border-blue-600">
+                    <div class="text-blue-500 text-2xl mb-4">🔹</div>
+                    <h3 class="text-xl font-bold mb-3 font-space-grotesk">Custom AI Development</h3>
+                    <p class="text-gray-400">Bespoke AI solutions tailored to your industry needs — including machine learning models, deep learning architectures, and generative AI applications.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-gray-900 p-6 rounded-lg hover:bg-gray-800 transition-all duration-300 border border-gray-800 hover:border-blue-600">
+                    <div class="text-blue-500 text-2xl mb-4">🔹</div>
+                    <h3 class="text-xl font-bold mb-3 font-space-grotesk">Automation & RPA</h3>
+                    <p class="text-gray-400">Streamline operations with robotic process automation (RPA) and AI-powered workflows. Improve efficiency, reduce costs, and free up human talent.</p>
+                </div>
+                <!-- Service 4 -->
+                <div class="bg-gray-900 p-6 rounded-lg hover:bg-gray-800 transition-all duration-300 border border-gray-800 hover:border-blue-600">
+                    <div class="text-blue-500 text-2xl mb-4">🔹</div>
+                    <h3 class="text-xl font-bold mb-3 font-space-grotesk">Computer Vision</h3>
+                    <p class="text-gray-400">Leverage visual data with advanced image and video analysis — from quality inspection in manufacturing to facial recognition in security systems.</p>
+                </div>
+                <!-- Service 5 -->
+                <div class="bg-gray-900 p-6 rounded-lg hover:bg-gray-800 transition-all duration-300 border border-gray-800 hover:border-blue-600">
+                    <div class="text-blue-500 text-2xl mb-4">🔹</div>
+                    <h3 class="text-xl font-bold mb-3 font-space-grotesk">Natural Language Processing (NLP)</h3>
+                    <p class="text-gray-400">Transform language into insight. We build NLP tools for chatbots, sentiment analysis, document classification, and more.</p>
+                </div>
+                <!-- Service 6 -->
+                <div class="bg-gray-900 p-6 rounded-lg hover:bg-gray-800 transition-all duration-300 border border-gray-800 hover:border-blue-600">
+                    <div class="text-blue-500 text-2xl mb-4">🔹</div>
+                    <h3 class="text-xl font-bold mb-3 font-space-grotesk">Predictive Analytics</h3>
+                    <p class="text-gray-400">Forecast customer behavior, market trends, and operational risks using AI-driven predictive models that help you make proactive decisions.</p>
+                </div>
+                <!-- Service 7 -->
+                <div class="bg-gray-900 p-6 rounded-lg hover:bg-gray-800 transition-all duration-300 border border-gray-800 hover:border-blue-600 md:col-span-2 lg:col-span-3">
+                    <div class="text-blue-500 text-2xl mb-4">🔹</div>
+                    <h3 class="text-xl font-bold mb-3 font-space-grotesk">AI Integration & Deployment</h3>
+                    <p class="text-gray-400">Seamless integration with your existing infrastructure — from cloud-based APIs to on-premise AI pipelines with full lifecycle support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-bold mb-12 text-center font-space-grotesk gradient-text">Intelligent Solutions, Across Every Sector</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300">
+                    <div class="text-3xl mb-3">🚀</div>
+                    <h3 class="font-medium">Startups & Tech Innovators</h3>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300">
+                    <div class="text-3xl mb-3">💼</div>
+                    <h3 class="font-medium">Enterprise & Corporates</h3>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300">
+                    <div class="text-3xl mb-3">🏥</div>
+                    <h3 class="font-medium">Healthcare & Life Sciences</h3>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300">
+                    <div class="text-3xl mb-3">🛍️</div>
+                    <h3 class="font-medium">Retail & E-commerce</h3>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300">
+                    <div class="text-3xl mb-3">🏭</div>
+                    <h3 class="font-medium">Manufacturing & Industrial</h3>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300">
+                    <div class="text-3xl mb-3">📈</div>
+                    <h3 class="font-medium">Finance & Banking</h3>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300">
+                    <div class="text-3xl mb-3">🎯</div>
+                    <h3 class="font-medium">Marketing & AdTech</h3>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-all duration-300">
+                    <div class="text-3xl mb-3">🛡️</div>
+                    <h3 class="font-medium">Security & Defense</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="py-20 bg-black">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-bold mb-12 text-center font-space-grotesk gradient-text">The NextGen Advantage</h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="flex items-start gap-3">
+                    <div class="text-green-500 text-xl">✅</div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2 font-space-grotesk">Deep AI Expertise</h3>
+                        <p class="text-gray-400">Our team consists of AI specialists with advanced degrees and industry experience.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3">
+                    <div class="text-green-500 text-xl">✅</div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2 font-space-grotesk">Strategic Alignment</h3>
+                        <p class="text-gray-400">We align AI solutions with your business goals for maximum impact.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3">
+                    <div class="text-green-500 text-xl">✅</div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2 font-space-grotesk">Scalable & Secure Solutions</h3>
+                        <p class="text-gray-400">Our AI systems grow with your business while maintaining enterprise-grade security.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3">
+                    <div class="text-green-500 text-xl">✅</div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2 font-space-grotesk">Transparent Process</h3>
+                        <p class="text-gray-400">Our agile development approach keeps you informed at every stage.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-3 md:col-span-2">
+                    <div class="text-green-500 text-xl">✅</div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2 font-space-grotesk">Long-term Support & Partnership</h3>
+                        <p class="text-gray-400">We're committed to your success beyond deployment with ongoing support.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <p class="text-xl font-medium italic text-blue-400">"We don't deliver code. We deliver capabilities."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section (Placeholder) -->
+    <section id="case-studies" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-bold mb-12 text-center font-space-grotesk gradient-text">Success Stories</h2>
+            <div class="text-center">
+                <p class="text-xl text-gray-400">Our case studies will be available soon. Check back to see how we've helped businesses transform with AI.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-black">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-5xl font-bold mb-12 text-center font-space-grotesk gradient-text">Start Your AI Journey With Confidence</h2>
+            <div class="max-w-4xl mx-auto mb-12">
+                <p class="text-xl text-gray-300 mb-8 text-center">Let's discuss how AI can redefine your business. Our experts are ready to explore your challenges and build the right solutions.</p>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Contact Form -->
+                    <div class="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                        <h3 class="text-xl font-bold mb-6 font-space-grotesk">Send Us a Message</h3>
+                        <form id="contact-form" class="space-y-4">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-400 mb-1">Your Name</label>
+                                <input type="text" id="name" name="name" class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-white" required>
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-400 mb-1">Email Address</label>
+                                <input type="email" id="email" name="email" class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-white" required>
+                            </div>
+                            <div>
+                                <label for="company" class="block text-sm font-medium text-gray-400 mb-1">Company Name</label>
+                                <input type="text" id="company" name="company" class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-white">
+                            </div>
+                            <div>
+                                <label for="service" class="block text-sm font-medium text-gray-400 mb-1">Service of Interest</label>
+                                <select id="service" name="service" class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-white">
+                                    <option value="">Select a service</option>
+                                    <option value="ai-strategy">AI Strategy & Consulting</option>
+                                    <option value="custom-ai">Custom AI Development</option>
+                                    <option value="automation">Automation & RPA</option>
+                                    <option value="computer-vision">Computer Vision</option>
+                                    <option value="nlp">Natural Language Processing</option>
+                                    <option value="predictive-analytics">Predictive Analytics</option>
+                                    <option value="ai-integration">AI Integration & Deployment</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-400 mb-1">Your Message</label>
+                                <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-white" required></textarea>
+                            </div>
+                            <div class="pt-2">
+                                <button type="submit" class="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-md transition-all duration-300 font-medium text-white">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <!-- Contact Information -->
+                    <div>
+                        <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 mb-6">
+                            <h3 class="text-xl font-bold mb-6 font-space-grotesk">Contact Information</h3>
+                            <div class="space-y-4">
+                                <div class="flex items-start gap-3">
+                                    <span class="text-2xl mt-1">📩</span>
+                                    <div>
+                                        <p class="text-sm text-gray-400">Email Us</p>
+                                        <a href="mailto:hello@nxtgensol.com" class="text-blue-400 hover:text-blue-300 transition-colors">hello@nxtgensol.com</a>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3">
+                                    <span class="text-2xl mt-1">📞</span>
+                                    <div>
+                                        <p class="text-sm text-gray-400">Call Us</p>
+                                        <a href="tel:+918122629221" class="text-blue-400 hover:text-blue-300 transition-colors">+91-8122629221</a>
+                                    </div>
+                                </div>
+                                <div class="flex items-start gap-3">
+                                    <span class="text-2xl mt-1">🌐</span>
+                                    <div>
+                                        <p class="text-sm text-gray-400">Visit Our Website</p>
+                                        <a href="https://www.nxtgensol.com" class="text-blue-400 hover:text-blue-300 transition-colors">www.nxtgensol.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-gray-900 p-6 rounded-lg border border-gray-800">
+                            <h3 class="text-xl font-bold mb-6 font-space-grotesk">Book a Consultation</h3>
+                            <p class="text-gray-400 mb-4">Schedule a free 30-minute consultation with our AI experts to discuss your business needs.</p>
+                            <a href="#" class="block w-full text-center px-6 py-3 bg-transparent border border-blue-600 hover:bg-blue-900/20 rounded-md transition-all duration-300 font-medium">Book a Free Consultation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-gray-950 text-gray-400">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-2xl font-bold text-white font-space-grotesk">NEXTGEN SOLUTIONS</h3>
+                    <p class="text-sm">Engineering Intelligence. Empowering Innovation.</p>
+                </div>
+                <div>
+                    <p class="text-sm">&copy; 2023 NEXTGEN SOLUTIONS. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="./scripts.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                        'space-grotesk': ['Space Grotesk', 'sans-serif'],
+                    },
+                }
+            }
+        }
+        
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
